@@ -1,0 +1,13 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+x ctrl+s",                "command": "workbench.action.files.save" },
+    { "key": "ctrl+x ctrl+f",                     "command": "workbench.action.files.openFile"},
+    { "key": "ctrl+x ctrl+3",               "command": "workbench.action.splitEditor" },
+    { "key": "ctrl+x o",                    "command": "workbench.action.navigateEditorGroups"},
+    { "key": "ctrl+s",                "command": "actions.find" },
+    { "key": "ctrl+u",                "command": "cursorUndo"},
+    { "key": "alt+w",                "command": "editor.action.clipboardCopyAction", ", when": "editorTextFocus" },
+    { "key": "ctrl+w",                "command": "editor.action.clipboardCutAction", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+y",                "command": "editor.action.clipboardPasteAction", "when": "editorTextFocus && !editorReadonly" },
+
+]
